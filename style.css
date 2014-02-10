@@ -5,7 +5,34 @@ background-color: #000;
 div {
    margin-left: auto;
    margin-right: auto;
+   text-align:left;
 }
+
+div.logo {
+  -moz-border-radius:10px;  /* for Firefox */
+  -webkit-border-radius:10px; /* for Webkit-Browsers */
+  border-radius:10px; /* regular */
+  background-color: #fff;
+}
+
+div.intro {
+  text-align:center;
+}
+
+.center {
+    text-align:center;
+}
+
+table {
+  margin-left:auto; 
+  margin-right:auto;
+  text-align: center;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
 
 .intro {
    color: #fff;
@@ -15,20 +42,40 @@ div {
    color: #fff;
 }
 
-#accordion .ui-state-default{
-     background-color: #000000;
+ul
+{
+  list-style: square;
+  text-align: left;
+}
+ol
+{
+   text-align: left;
+}
+
+#button  { /*basic styles*/ width: 300px; height: 50px; color: white; background-color: #909090;  text-align: center; font-size: 15px; line-height: 50px; /*gradient styles*/ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#909090), to(#000)); background: -moz-linear-gradient(19% 75% 90deg,#000, #909090); /*border styles*/ border-top: solid 2px #fff; border-bottom: solid 1px #000; border-right: solid 1px #909090; border-left: solid 1px #909090; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; } .button div {margin-left="auto"; margin-right="auto"} .button p { font-size: 25px; line-height: 50px; font-family: 'Trebuchet MS', sans-serif; } a { text-decoration: none; color: fff; } .button:hover { background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#000), to(#909090)); background: -moz-linear-gradient(19% 75% 90deg,#909090, #fff); border-top: solid 2px #fff; border-bottom: solid 1px #e28d79; }
+
+#buttonred  { /*basic styles*/ width: 300px; height: 50px; color: white; background-color: #ff0000;  text-align: center; font-size: 15px; line-height: 50px; /*gradient styles*/ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ff0000), to(#000)); background: -moz-linear-gradient(19% 75% 90deg,#000, #ff0000); /*border styles*/ border-top: solid 2px #fff; border-bottom: solid 1px #000; border-right: solid 1px ##ff0000; border-left: solid 1px #ff0000; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; } .button div {margin-left="auto"; margin-right="auto"} .button p { font-size: 25px; line-height: 50px; font-family: 'Trebuchet MS', sans-serif; } a { text-decoration: none; color: fff; } .button:hover { background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#000), to(#ff0000)); background: -moz-linear-gradient(19% 75% 90deg,#ff0000, #fff); border-top: solid 2px #fff; border-bottom: solid 1px #e28d79; }
+
+#accordion .ui-state-background{
+     default-color: #000000;
      background-image: none;
      color: #000000;
   }
 
 #accordion .ui-state-default.ui-state-active{
-     background-color: #ff0000;
-     background-image: none;
-     /*Accordion Header Text Color*/
-	 color: #ff0000; 
-	 
+    background-color: #909090;
+    background-image: none;
+    /*Accordion Header Text Color*/
+    color: #000000; 
+    font-weight:bold;
+    text-align:left;
   } 
 
+#accordion h3 {
+    text-align:left;
+}
+
 #accordion .ui-state-icons{
-       color: #000000;
+    color: #050505;
+    text-align:left;
 }
